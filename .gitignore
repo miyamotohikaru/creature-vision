@@ -1,0 +1,8 @@
+node_modules/
+.next/
+out/
+.vercel
+.env*.local
+
+# macOS がフォルダを開くたびに作る隠しファイル
+.DS_Store
