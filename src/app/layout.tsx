@@ -7,8 +7,8 @@ const SITE_URL = "https://creature-vision.kosukuma.com";
 // 焼き直しは node tools/shoot-og.mjs。焼くたびに ?v= が変わり、
 // SNS が持っている古い絵を捨てて取り直す。
 const OG_IMAGE = `${SITE_URL}/og.png?v=${OG_VERSION}`;
-// SNSに貼ったときの見出しは、トップ画面と同じ言葉にする
-const SHARE_TITLE = "生き物の目で世界を見よう";
+// SNSに貼ったときの見出しは、このサイトの呼び名そのもの
+const SHARE_TITLE = "生き物の視点";
 const SHARE_DESCRIPTION = "写真をアップして、24種類の生き物の目で見てみよう。";
 
 export const metadata: Metadata = {
