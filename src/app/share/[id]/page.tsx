@@ -47,6 +47,8 @@ export async function generateMetadata({
   return {
     title,
     description,
+    // トップの canonical を継ぐと共有ページが別ページとして扱われなくなるので、自分を指す
+    alternates: { canonical: `/share/${id}` },
     openGraph: {
       title,
       description,
